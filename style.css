@@ -1,0 +1,318 @@
+/* © Abdulaziz Najmiddinov */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Fontlarni yuklab oldik */
+:root {
+    --roboto : 'Roboto', sans-serif;
+    --qora :  rgba(33, 42, 47, 1);
+    --oq :  rgba(255, 255, 255, 1);
+}
+/* qayta-qayta ishlatilinadigan qiymatlarni bitta o'garuvchiga nomlab oldik */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Barcha elementlar uchun tegishli qiymat berdik */
+
+
+
+nav {
+    display: inline-block;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    
+}
+
+.navigation a {
+    text-decoration: none;
+    color: var(--qora);
+    font-size: 0.75rem;
+    font-family: var(--roboto);
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    line-height: 21px;
+}
+
+.p_1 {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.p_2 {
+    margin-right: 510px;
+}
+
+.logo {
+    margin-right: 286px;
+}
+
+.mat {
+    margin-right: 30px;
+}
+
+.stor {
+    margin-right: 21px;
+}
+
+.user {
+    margin-right:23px;
+    font-size: 20px !important;
+
+}
+
+.que {
+    margin-right: 16px;
+    font-size: 20px !important;
+}
+
+.shop {
+    margin-right: 21px;
+    font-size: 20px !important;
+}
+
+.mainus {
+    background-image: url(./Images/Rectangle.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 91.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    margin-top: 200px ;
+    width: 750px;
+    height: 360px;
+
+}
+
+.tree {
+    text-align: center;
+    font-family: var(--roboto);
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 400;
+    line-height: 63px;
+    letter-spacing: 0.5px;
+}
+
+.text {
+    text-align: center;
+    font-family: var(--roboto);
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.btn1 {
+    margin-top: 207px;
+    width: 180px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: none;
+    margin-left: 190px;
+}
+
+.btn2 {
+    margin-top: 207px;
+    width: 180px;
+    height: 48px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: none;
+    margin-left: 4px;
+}
+
+.favorite {
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+
+}
+
+
+
+.box-first h1 {
+    margin-top: 119px;
+    font-family: var(--roboto);
+    color: var(--qora);
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+}
+
+.box-first p {
+    font-family: var(--roboto);
+    color: var(--qora);
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 1rem;
+    margin-top: 32px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+
+    
+} 
+
+.pr{
+    margin-left: 440px;
+    margin-right: 132px;
+}
+
+.pr2{
+    margin-right: 132px;
+}
+
+.boxilla {
+    padding: 34px;
+    border-top: 1px solid rgb(180, 173, 173);
+    margin-top: 12px;
+    width: 1236px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+
+}
+
+.box-image {
+    margin-right: 24px;
+}
+
+.box-image2 {
+    margin-right: 24px;
+}
+
+.btn-3 {
+    width: 276px;
+    height: 48px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: var(--roboto);
+    color: var(--qora);
+    line-height: 17px;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    border: none;
+    position: absolute;
+    top: 1118px;
+    left: 123px;
+    /* display: none; */
+}
+/* .box-image:hover {
+    display: block;
+} */
+.btn-4 {
+    width: 276px;
+    height: 48px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: var(--roboto);
+    color: var(--qora);
+    line-height: 17px;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    border: none;
+    position: absolute;
+    top: 1175px;
+    left: 123px;
+}
+
+.btn-5 {
+    width: 276px;
+    height: 48px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: var(--roboto);
+    color: var(--qora);
+    line-height: 17px;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    border: none;
+    position: absolute;
+    top: 1118px;
+    left: 543px;
+}
+
+.btn-6 {
+    width: 276px;
+    height: 48px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: var(--roboto);
+    color: var(--qora);
+    line-height: 17px;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    border: none;
+    position: absolute;
+    top: 1175px;
+    left: 543px;
+}
+
+.btn-7 {
+    width: 276px;
+    height: 48px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: var(--roboto);
+    color: var(--qora);
+    line-height: 17px;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    border: none;
+    position: absolute;
+    top: 1118px;
+    left: 963px;
+}
+
+.btn-8 {
+    width: 276px;
+    height: 48px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-family: var(--roboto);
+    color: var(--qora);
+    line-height: 17px;
+    letter-spacing: 2px;
+    font-size: 0.875rem;
+    border: none;
+    position: absolute;
+    top: 1175px;
+    left: 963px;
+}
+
+.image-box {
+    display: inline-block;
+}
