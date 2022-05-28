@@ -468,3 +468,46 @@ nav {
     font-weight: 400px;
     line-height: 29px;
 }
+
+
+.imgusus {
+    margin-top: 138px;
+    width: 100%;
+}
+
+.pt1 {
+    margin-top: 47px;
+    font-family: var(--roboto);
+    color: #212A2F;
+    font-size: 2rem;
+    line-height: 42px;
+    text-align: center;
+}
+
+.pt2 {
+    margin-top: 22px;
+    font-family: var(--roboto);
+    color: #212A2F;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 24px;
+}
+
+.btn-12 {
+    margin-top: 26px;
+    width: 384px;
+    height: 48px;
+    color: #fff;
+    font-size: 0.875rem ;
+    color:#fff;
+    background-color: #212A2F;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 119px;
+}
+
+.digus-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
