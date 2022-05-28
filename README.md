@@ -9,6 +9,7 @@ In this project is used the following languages:
 
 - HTML
 - CSS
+- JS
 
 
 ## Authors

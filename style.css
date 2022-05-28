@@ -511,3 +511,86 @@ nav {
     display: flex;
     justify-content: center;
 }
+
+.Arrivvals {
+    width: 100%;
+
+}
+
+.py1 {
+    margin-left: 60px;
+    font-family: var(--roboto);
+    font-size: 2rem;
+    line-height: 42px;
+    font-weight: 400px;
+    margin-bottom: 24px;
+}
+
+.figmus-box {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+}
+
+.img-10{
+    margin-left: 60px;
+    margin-right: 24px;
+
+}
+
+.img-12{
+    margin-right: 60px;
+    margin-left: 24px;
+}
+
+.py2 {
+    font-family: var(--roboto);
+    font-size: 1.375rem;
+    font-weight: 400px;
+    margin-left: 78px;
+    line-height: 29px;
+}
+
+.py3 {
+    margin-top: 6px;
+    margin-left: 78px;
+    font-family: var(--roboto);
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 400px;
+}
+
+.py4 {
+    font-family: var(--roboto);
+    font-size: 1.375rem;
+    font-weight: 400px;
+    margin-left: 18px;
+    line-height: 29px;
+}
+
+.py5 {
+    margin-top: 6px;
+    margin-left: 18px;
+    font-family: var(--roboto);
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 400px;
+}
+
+.py6 {
+    font-family: var(--roboto);
+    font-size: 1.375rem;
+    font-weight: 400px;
+    margin-left: 42px;
+    line-height: 29px;
+}
+
+.py7 {
+    margin-top: 6px;
+    margin-left: 42px;
+    font-family: var(--roboto);
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 400px;
+    margin-bottom: 138px;
+}
