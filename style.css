@@ -640,3 +640,37 @@ nav {
     padding: 17px 54px;
     margin-bottom: 119px;
 }
+
+.pq {
+    margin-left: 60px;
+    font-family: var(--roboto);
+    color: var(--qora);
+    font-size: 2rem;
+    line-height: 42px;
+    margin-bottom: 24px;
+}
+
+.imguses {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.pq2 {
+    font-family: var(--roboto);
+    font-size: 1.375rem;
+    font-weight: 400px;
+    margin-left: 8px;
+    line-height: 29px;
+}
+
+.ps1 {
+    margin-top: 10px;
+    margin-left: 8px;
+    font-family: var(--roboto);
+    font-size: 1rem;
+    line-height: 24px;
+    font-weight: 400px;
+    margin-bottom: 134px;
+}
