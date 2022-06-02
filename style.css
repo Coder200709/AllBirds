@@ -10,11 +10,14 @@
 * {
     margin: 0;
     padding: 0;
+    
     box-sizing: border-box;
 }
 /* Barcha elementlar uchun tegishli qiymat berdik */
 
-
+body{
+    overflow-y: overlay;
+}
 
 nav {
     display: inline-block;
@@ -593,4 +596,47 @@ nav {
     line-height: 24px;
     font-weight: 400px;
     margin-bottom: 138px;
+}
+
+
+
+.thimge {
+    width: 100%;
+    height: 542px;
+}
+
+.pk {
+    margin-top: 47px;
+    font-family: var(--roboto);
+    font-size: 2rem;
+    line-height: 42px;
+    text-align: center;
+}
+
+.pk2 {
+    margin-top: 22px;
+    font-family: var(--roboto);
+    font-weight: 400px;
+    font-size: 1rem;
+    line-height: 24px;
+    text-align: center;
+}
+
+.sus {
+    margin-top: 26px;
+    width: 384px;
+    height: 48px;
+    color: #fff;
+    border-radius: 2px;
+    text-align: center;
+    margin-left: 490px;
+    background-color: var(--qora);
+    font-family: var(--roboto);
+    line-height: 17px;
+    font-weight: 400;
+    font-size: 0.875rem;
+    letter-spacing: 2px;
+    border: none;
+    padding: 17px 54px;
+    margin-bottom: 119px;
 }
