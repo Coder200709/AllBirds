@@ -17,6 +17,11 @@
 
 body{
     overflow-y: overlay;
+
+}
+
+body button {
+    cursor: pointer;
 }
 
 nav {
@@ -29,7 +34,7 @@ nav {
     align-items: center;
     width: 100%;
     height: 60px;
-    
+    padding-top: 20px;
 }
 
 .navigation a {
@@ -734,9 +739,19 @@ nav {
     font-size: 0.75rem;
 }
 
-.help p {
+.help p,a{
     margin-bottom: 16px;
     cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+}
+
+.poz3 {
+    margin-top: 16px;
+}
+
+.poz5 {
+    margin-top: 16px;
 }
 
 .poz1 {
@@ -843,6 +858,10 @@ nav {
 .iqons i{
     color: #fff;
     margin-right: 18px;
+}
+
+.iqons i:hover {
+    cursor: pointer;
 }
 
 .hud {
